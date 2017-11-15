@@ -65,8 +65,8 @@ class Configurator:
         self.parser.add_argument("-ldir", "--logfolder", help="Logfolder - path to where logfile is written to. Default is temp directory.", default = tempfile.gettempdir() )
         self.parser.add_argument("-ln", "--logname", help="Logname - Name of the log." )
         self.parser.add_argument("-em", "--email", help="Send notification email", action="store_true")
-        self.parser.add_argument("-se", "--sender", help="email sender, e.g. dada@ubs.com")
-        self.parser.add_argument("-dist", "--distributionlist", help="email distributionlist as list, e.g. ['lala@ubs.com', 'dudu@ubs.com']")
+        self.parser.add_argument("-se", "--sender", help="email sender, e.g. dada@gmail.com")
+        self.parser.add_argument("-dist", "--distributionlist", help="email distributionlist as list, e.g. ['lala@gmail.com', 'dudu@gmail.com']")
         self.parser.add_argument("-errlist", "--error_distributionlist", help="error email distributionlist as list, e.g. ['lala@ubs.com', 'dudu@ubs.com']")
         self.parser.add_argument("-casrd", "--cobdateasrundate", help="if flag is set then cobdate is set to rundate, e.g. when the data is processed on the same day", action="store_true")
 
