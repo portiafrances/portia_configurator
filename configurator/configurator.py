@@ -10,7 +10,7 @@ from datetime import datetime, timedelta
 import argparse
 import tempfile
 
-from nmrfengine.utils.ui import ArgparseUi
+from ui import ArgparseUi
 
 class Configurator:
     """Standard class to configure command line applications.
