@@ -21,7 +21,11 @@ Configurator creates an appconfig from the commandline or a config file for any 
 Features
 --------
 
-* TODO
+* support all abtch-style applications
+* Configure templates to run on different dates
+* Configure emails to sendto on failure
+* Automatically log all runs
+ 
 
 Credits
 ---------
