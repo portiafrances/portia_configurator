@@ -27,5 +27,5 @@ deploy:
     secure: PLEASE_REPLACE_ME
   on:
     tags: true
-    repo: tomanizer/configurator
+    repo: tomanizer/portia_configurator
     condition: $TOXENV == py27
